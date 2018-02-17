@@ -10,3 +10,7 @@ app.listen(3000, _ => {
 app.get('/', (req, res) => {
     res.status(200).render('index');
 });
+app.get('/calendar', (req, res) => {
+    // res.status(200).send('OK');
+    res.status(200).render('calendar');
+});
