@@ -8,5 +8,6 @@ app.listen(3000, _ => {
 });
 
 app.get('/', (req, res) => {
-    res.status(200).render('index');
+    // res.status(200).render('index');
+    res.status(200).send('OK');
 });
